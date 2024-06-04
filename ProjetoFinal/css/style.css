@@ -1,0 +1,316 @@
+<style>
+.body1  {
+  box-sizing: border-box;
+}
+
+.body1 a {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+.center {
+  margin: auto;
+  width: 100%;
+  padding: 20px;
+}
+
+.previous {
+  background-color: #333;
+  color: white;
+}
+
+
+ body.center-form0 {
+    min-height: 100vh;
+  }
+
+ body.center-form1 {
+    min-height: 100vh;
+  }
+
+  div.center-form0 {
+    position: relative;
+    min-height: 270vh;
+  }
+
+ div.center-form1 {
+    position: relative;
+	min-height: 160vh;
+ }
+ 
+ div.center-form0 > form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+  }
+
+div.center-form1 > form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+  }
+
+
+.header {
+      
+background-color: #333; /* Cor de fundo do cabeçalho */
+    
+ color: #fff; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    display: flex; /* Para alinhar itens horizontalmente */
+    justify-content: space-between; /* Para espaçar os itens igualmente */
+}
+
+.left a{
+	  text-decoration: none; 
+    color: #fff; 
+	
+}
+.right a {
+    text-decoration: none; /* Remover sublinhado do link */
+    color: #fff; /* Cor do texto */
+}
+
+.left {
+  margin: 0px;
+  padding: 0px;
+}
+
+.right {
+    /* Estilos para o lado direito */
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #000000;
+  
+}
+
+.topnav h1{
+	float: left;
+  display: block;
+  color: #00BFFF;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #00BFFF;
+  text-align: center;
+  padding: 23px 15px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+
+/* Add a card effect for articles */
+.card {
+  background-color: black;
+  color: black;
+  padding: 40px;
+  margin-top: 0px
+}
+.card 1{
+  background-color: black;
+  color: black;
+  padding: 30px;
+  margin-top: 0px
+}
+
+.menu1 {
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+
+.titulo h3 {
+	margin: 10px;
+	padding: 10px;
+	color: black;
+	text-align: center;
+}
+
+.titulo p {
+	margin: 10px;
+	padding: 10px;
+	color: black;
+	text-align: center;
+}
+
+.projeto1 {
+  width: 100%;
+  margin: 0px;
+  padding: 30px 0px 20px 0px;
+  background-color: white;
+}
+
+.imagems{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.sobre-projeto1 {
+  flex-basis: 50%;
+}
+
+.sobre-projeto1 h2 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #00BFFF;
+}
+
+.sobre-projeto1 p {
+  text-align: center;
+  color: #00BFFF;
+}
+
+.imagem1 {
+  flex-basis: 50%;
+  margin: 0 auto;
+}
+
+.imagem1 img {
+  width: 80%;
+  margin: 10px;
+}
+
+.sobre-projeto2 {
+  flex-basis: 100%;
+}
+
+.sobre-projeto2 h2 {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #00BFFF;
+}
+
+.sobre-projeto2 p {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #00BFFF;
+}
+
+.imagem2 {
+  flex-basis: 50%;
+  margin: 0 auto;
+ 
+}
+
+.imagem2 img {
+  width: 90%;
+  margin: 10px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 0px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 6px 1px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #04AA6D;
+}
+
+.button1:hover {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+</style>
+
+
+ 
